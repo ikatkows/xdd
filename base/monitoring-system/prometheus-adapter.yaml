@@ -6,11 +6,12 @@ metadata:
 spec:
   releaseName: prometheus-adapter
   chart:
-    git: https://github.com/kubernetes/charts
+    git: https://github.com/helm/charts
     ref: master
     path: stable/prometheus-adapter
   values:
     prometheus:
+      fullnameOverride: prometheus-adapter
       url: http://prometheus.monitoring-system
       port: 9090
     rules:
