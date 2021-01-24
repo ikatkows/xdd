@@ -6,9 +6,8 @@ metadata:
 spec:
   releaseName: metrics-server
   chart:
-    git: https://github.com/helm/charts
+    git: https://github.com/kubernetes-incubator/metrics-server
     ref: master
-    path: stable/metrics-server
   values:
     args:
       - --kubelet-preferred-address-types=InternalIP

@@ -6,7 +6,7 @@ metadata:
 spec:
   releaseName: prometheus-adapter
   chart:
-    git: https://github.com/helm/charts
+    git: https://github.com/kubernetes/charts
     ref: master
     path: stable/prometheus-adapter
   values:
