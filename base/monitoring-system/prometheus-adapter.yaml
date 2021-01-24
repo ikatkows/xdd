@@ -6,7 +6,9 @@ metadata:
 spec:
   releaseName: prometheus-adapter
   chart:
-    repository: https://github.com/prometheus-community/helm-charts/charts/prometheus-adapter
+    git: https://github.com/prometheus-community/helm-charts
+    ref: master
+    path: charts/prometheus-adapter
   values:
     prometheus:
       url: http://prometheus.monitoring-system
