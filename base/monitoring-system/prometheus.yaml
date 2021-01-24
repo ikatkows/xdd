@@ -6,7 +6,7 @@ metadata:
 spec:
   releaseName: prometheus
   chart:
-    git: https://github.com/aws/ek-charts
+    git: https://github.com/aws/eks-charts
     ref: master
     path: stable/appmesh-prometheus
   values:
