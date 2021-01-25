@@ -4,7 +4,7 @@ metadata:
   name: prometheus-adapter
   namespace: monitoring-system
 spec:
-  releaseName: prometheus-adapter
+  releaseName: k8s-prometheus-adapter
   chart:
     git: https://github.com/DirectXMan12/k8s-prometheus-adapter
     ref: master
