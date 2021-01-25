@@ -1,4 +1,4 @@
-apiVersion: helm.fluxcd.io/v1
+kapiVersion: helm.fluxcd.io/v1
 kind: HelmRelease
 metadata:
   name: prometheus-adapter
