@@ -4,10 +4,9 @@ metadata:
   name: prometheus-adapter
   namespace: monitoring-system
 spec:
-  releaseName: k8s-prometheus-adapter
   chart:
-    git: https://github.com/DirectXMan12/k8s-prometheus-adapter
-    ref: master
+    repository: https://prometheus-community.github.io/helm-charts
+    name: prometheus-adapter
   values:
     prometheus:
       url: http://prometheus.monitoring-system
