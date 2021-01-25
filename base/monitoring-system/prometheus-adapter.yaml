@@ -1,7 +1,7 @@
 apiVersion: helm.fluxcd.io/v1
 kind: HelmRelease
 metadata:
-  name: prometheus-adapter2
+  name: prometheus-adapter
   namespace: monitoring-system
 spec:
   chart:
